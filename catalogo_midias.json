@@ -1,0 +1,115 @@
+[
+  {
+    "id": "apresentacao",
+    "tipo": "document",
+    "nome_arquivo": "apresentacao-eco-smart.pdf",
+    "mimetype": "application/pdf",
+    "url": "{{BASE_URL}}/pdfs/apresentacao-eco-smart.pdf",
+    "legenda": "Nossa apresentação institucional, com o modelo de negócio e os valores de investimento 👇",
+    "gatilho": "abertura",
+    "arquivo": "pdfs/apresentacao-eco-smart.pdf"
+  },
+  {
+    "id": "audio_modelo_suporte",
+    "tipo": "audio",
+    "nome_arquivo": "ana-modelo-e-suporte.ogg",
+    "mimetype": "audio/ogg; codecs=opus",
+    "url": "{{BASE_URL}}/audios/ana-modelo-e-suporte.ogg",
+    "legenda": "",
+    "gatilho": "apos_prazo; operacao sem funcionario; falta de tempo; nunca teve negocio",
+    "arquivo": "audios/ana-modelo-e-suporte.ogg"
+  },
+  {
+    "id": "audio_rentabilidade",
+    "tipo": "audio",
+    "nome_arquivo": "ana-rentabilidade.ogg",
+    "mimetype": "audio/ogg; codecs=opus",
+    "url": "{{BASE_URL}}/audios/ana-rentabilidade.ogg",
+    "legenda": "",
+    "gatilho": "apos_audio_1; duvida sobre lucro; duvida sobre payback",
+    "arquivo": "audios/ana-rentabilidade.ogg"
+  },
+  {
+    "id": "detalhamento_154",
+    "tipo": "document",
+    "nome_arquivo": "estudo-viabilidade-154k.pdf",
+    "mimetype": "application/pdf",
+    "url": "{{BASE_URL}}/pdfs/estudo-viabilidade-154k.pdf",
+    "legenda": "Segue o detalhamento do investimento do modelo compacto, item a item 👇",
+    "gatilho": "faixa_ok=sim e perfil compacto",
+    "arquivo": "pdfs/estudo-viabilidade-154k.pdf"
+  },
+  {
+    "id": "detalhamento_199",
+    "tipo": "document",
+    "nome_arquivo": "investimento-199k.pdf",
+    "mimetype": "application/pdf",
+    "url": "{{BASE_URL}}/pdfs/investimento-199k.pdf",
+    "legenda": "Segue o detalhamento do investimento do modelo padrão, item a item 👇",
+    "gatilho": "faixa_ok=sim e perfil padrao",
+    "arquivo": "pdfs/investimento-199k.pdf",
+    "observacao": "Formato antigo; trocar quando o cliente enviar o estudo 199k no formato novo."
+  },
+  {
+    "id": "video_diferencial",
+    "tipo": "video",
+    "nome_arquivo": "eco-smart-diferencial.mp4",
+    "mimetype": "video/mp4",
+    "url": "{{BASE_URL}}/videos/eco-smart-diferencial.mp4",
+    "legenda": "Nosso fundador explica o que diferencia a Eco Smart de outras franquias 👆",
+    "gatilho": "confianca; comparando franquias; nunca teve negocio",
+    "arquivo": "videos/eco-smart-diferencial.mp4"
+  },
+  {
+    "id": "video_lucratividade",
+    "tipo": "video",
+    "nome_arquivo": "eco-smart-lucratividade.mp4",
+    "mimetype": "video/mp4",
+    "url": "{{BASE_URL}}/videos/eco-smart-lucratividade.mp4",
+    "legenda": "Aqui ele fala dos números da operação 👆",
+    "gatilho": "duvida sobre lucro, quando o audio ja foi enviado",
+    "arquivo": "videos/eco-smart-lucratividade.mp4"
+  },
+  {
+    "id": "video_payback",
+    "tipo": "video",
+    "nome_arquivo": "eco-smart-payback.mp4",
+    "mimetype": "video/mp4",
+    "url": "{{BASE_URL}}/videos/eco-smart-payback.mp4",
+    "legenda": "Sobre o retorno do investimento, vale ouvir isso 👆",
+    "gatilho": "duvida sobre retorno; medo de nao dar certo",
+    "arquivo": "videos/eco-smart-payback.mp4",
+    "observacao": "Legenda do video cita 'faturamento acima de R$ 25.000' relatado por franqueados. Manter legenda sem prometer resultado."
+  },
+  {
+    "id": "dre_simulada",
+    "tipo": "document",
+    "nome_arquivo": "dre-simulada-faturamento-x-despesas.pdf",
+    "mimetype": "application/pdf",
+    "url": "{{BASE_URL}}/pdfs/dre-simulada-faturamento-x-despesas.pdf",
+    "legenda": "Essa é uma simulação de resultado mensal, com base nas unidades em operação. É estimativa, não garantia 👇",
+    "gatilho": "pediu numero fechado, despesas, DRE",
+    "arquivo": "pdfs/dre-simulada-faturamento-x-despesas.pdf"
+  },
+  {
+    "id": "video_franqueado",
+    "tipo": "video",
+    "nome_arquivo": "depoimento-franqueado.mp4",
+    "mimetype": "video/mp4",
+    "url": "PENDENTE",
+    "legenda": "Olha que bacana esse depoimento de um dos nossos franqueados 👆",
+    "gatilho": "recuperacao de lead sumido",
+    "arquivo": null
+  },
+  {
+    "id": "cof",
+    "tipo": "document",
+    "nome_arquivo": "COF-Eco-Smart.pdf",
+    "mimetype": "application/pdf",
+    "url": "PRIVADO - nao hospedar no repo",
+    "legenda": "Segue a COF, onde você encontra todas as cláusulas do nosso negócio. A lei garante 10 dias de leitura antes de qualquer assinatura ou pagamento.",
+    "gatilho": "somente apos reuniao agendada",
+    "confidencial": true,
+    "arquivo": null
+  }
+]
